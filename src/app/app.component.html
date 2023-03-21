@@ -71,7 +71,7 @@
               type="text" 
               class="form-control" 
               id="password" 
-              name="password" [(ngModel)]="model.email" 
+              name="password" [(ngModel)]="model.password" 
               placeholder="Enter a New Password">
           </div>
         </div>
@@ -102,7 +102,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let user for user; let i = index">
+          <tr *ngFor="let user for users; let i = index">
             <!--<td>{{employee._id}}</td>-->
             <td>{{user.name}}</td>
             <td>{{user.surname}}</td>
