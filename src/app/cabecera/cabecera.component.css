@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    background-color: orange;
+    padding: 1em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.h1 {
+    background-color: aqua;
+}
+
+.button {
+    background-color: crimson;
+    display: none;
+/* 
+    @media screen and (max-width: 480px;){
+        display: flex;
+    } */
+}
+
+.svg{
+    width: 2em;
+    height: 2em;
+}
+
+.nav {
+    background-color: bisque;
+}
+
+.ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.li {
+    margin: 0.5em;
+}
